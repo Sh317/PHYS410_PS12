@@ -2,6 +2,7 @@ Hi Jason,
 
 This is my solution to the problem set 12.
 
+## Problem 1
 (a) `a1.png`: 20 by 20 grids, 10,000 iteratons, T = 10.\
 Cluster size: around 10.\
     `a2.png`: 20 by 20 grids, 10,000 iteratons, T = 5.\
@@ -12,7 +13,7 @@ Cluster size: around 20.\
 Cluster size: around 30.\
     `a5.png`: 20 by 20 grids, 10,000 iteratons, T = 2.5.\
 Cluster size: 40 or so.
-- The cluster is growing with lower temperature.\
+- The cluster is growing with lower temperature.
 
 (c) `b1.png`: 40 by 40 grids, 10,000 iteratons, T = 10.\
     `b2.png`: 40 by 40 grids, 10,000 iteratons, T = 5.\
