@@ -29,13 +29,13 @@ Cluster size: 40 or so.\
     Mean Magnetization: -174
 
 (d) `d.png`: 10 by 10 grids, 100,000 iteratons, T = 2.5.\
-    - This similar to what we had for T = 2.5, but because we have more iterations now, they form even larger domain, which is even more than half the grids.
+- This similar to what we had for T = 2.5, but because we have more iterations now, they form even larger domain, which is even more than half the grids.
 
 (e) `e1.png`: 20 by 20 grids, 100,000 iteratons, T = 2.5.\
     `e2.png`: 50 by 50 grids, 200,000 iteratons, T = 2.4.\
     `e3.png`: 100 by 100 grids, 300,000 iteratons, T = 2.3.\ 
-    `e4.png`: 200 by 200 grids, 1,000,000 iteratons, T = 2.27. \ 
-    - Clearly, this does not happen in `e4.png`, but it does form very large domain, when temperature and lattice is growing larger. And with more iterations, more and more small domains start connecting with each other. Therefore, the cluster will go to infinity with large iterations and large lattice.
+    `e4.png`: 200 by 200 grids, 1,000,000 iteratons, T = 2.27.\ 
+- Clearly, this does not happen in `e4.png`, but it does form very large domain, when temperature and lattice is growing larger. And with more iterations, more and more small domains start connecting with each other. Therefore, the cluster will go to infinity with large iterations and large lattice.
 
 ## Contributions
 - Sherlock Zhao
