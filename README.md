@@ -1,5 +1,3 @@
-Hi Jason,
-
 This is my solution to the problem set 12.
 
 ## Problem 1
