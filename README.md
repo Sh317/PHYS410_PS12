@@ -1,4 +1,4 @@
-This is my solution to the problem set 12.
+This is my solution to the problem set 12. The python code allows you to see animation of the Ising model of each iteration.
 
 ## Problem 1
 (a) `a1.png`: 20 by 20 grids, 10,000 iteratons, T = 10.\
