@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-T = 10
+T = 2.27
 B = 0.
-iterations = 100
-Nx, Ny = 20, 20
+iterations = 1000000
+Nx, Ny = 200, 200
 #Note: Curie point is 2.27
 Nframes = 10
 Ipf = iterations/Nframes
@@ -52,7 +52,7 @@ axes[0].set_title(f"{Nx}*{Ny} Simulation of the Ising Model, T = {T}")
 axes[0].set_axis_off()
 Mag_plot, = axes[1].plot(x_Magnetization, Mag_frames[0,:], color='c')
 axes[1].set_title('Overall Magnetization')
-axes[1].set_xlabel('Nth Iteration')
+axes[1].set_xlabel('Nth update (updates every 10,000 iterations)')
 axes[1].set_ylabel('Value of Magnetization')
 #Miscellaneous initial settings
 ylim = np.amax(np.abs(Mag_value))
@@ -72,4 +72,4 @@ ani = animation.FuncAnimation(
 plt.show()
 
 Mean_Mag = Mag_value[-1]
-# print(f'Mean Magnetization = {Mean_Mag}')
+print(f'Mean Magnetization = {Mean_Mag}')
